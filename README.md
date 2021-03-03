@@ -29,5 +29,23 @@ That's pretty much it.
 ## Where did the palettes come from?
 
 ### Battles - *Juice B Crypts*
+
 **Variable Name `battles`**
+
+
 ![](Covers/battles.png)
+
+### A Lot Like Birds - *Conversation Piece*
+
+**Variable Name `CP1`**
+
+
+![](Covers/CP1.jpg)
+
+### A Lot Like Birds - *Conversation Piece (Deluxe Edition)*
+
+**Variable Name `CP2`**
+
+
+![](Covers/CP2.jpg)
+
