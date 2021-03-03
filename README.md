@@ -111,3 +111,19 @@ That's pretty much it.
 **Variable Name `stolas`**
 
 <img src="Covers/stolas.jpg" width="300">
+
+## A note for the Power Palette people out there:
+
+You'll note that there is also a function file called `Palettizer.m` packaged with the other files. This is a short function I wrote to help you do this same thing! To use it...
+
+1. Download an image you'd like to get colors from.
+2. Go to [this site](https://color.adobe.com/create/image) and upload the image. Play around with the color picker a bit until a set tickles your fancy, and mouse over to the "Color Wheel" tab. If you scroll down you should see a display that shows the R, G, B, and luminance values of the five colors. 
+3. Make those into a matrix in MATLAB like so:
+```
+test = [R1 R2 R3 R4 R5; G1 G2 G3 G4 G5; B1 B2 B3 B4 B5]
+```
+4. Run Palettizer.
+```
+yourPalette = Palettizer(test)
+```
+5. You should see a plot that demonstrates the colors you put in, and the `yourPalette` variable can be used as in the instructions earlier.
