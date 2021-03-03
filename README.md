@@ -32,20 +32,16 @@ That's pretty much it.
 
 **Variable Name `battles`**
 
-
-![](Covers/battles.png =300x300)
+<img src="Covers/battles.png" width="300">
 
 ### A Lot Like Birds - *Conversation Piece*
 
 **Variable Name `CP1`**
 
-
-![](Covers/CP1.jpg =300x300)
+<img src="Covers/CP1" width="300">
 
 ### A Lot Like Birds - *Conversation Piece (Deluxe Edition)*
 
 **Variable Name `CP2`**
 
-
-![](Covers/C2.jpg =300x300)
-
+<img src="Covers/C2.jpg" width="300">
