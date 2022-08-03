@@ -112,6 +112,12 @@ That's pretty much it.
 
 <img src="Covers/stolas.jpg" width="300">
 
+### DOMi and JD Beck - *NOT TiGHT*
+
+**Variable Name `TiGHT`**
+
+<img src="Covers/DOMiandJDBeck.jpg" width="300">
+
 ## A note for the Power Palette people out there:
 
 You'll note that there is also a function file called `Palettizer.m` packaged with the other files. This is a short function I wrote to help you do this same thing! To use it...
