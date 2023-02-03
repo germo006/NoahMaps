@@ -21,11 +21,14 @@ if ~exist("plotFlag", "var") || plotFlag ~= 1
 end
 if plotFlag == 1
     figure
-    for ii = 1:N
-        map{ii} = RGB(:,ii).'./255;
+end
+for ii = 1:N
+    map{ii} = RGB(:,ii).'./255;
+    if plotFlag == 1
         plot(1:10, [0:9]+ii, 'LineWidth', 3, 'Color', map{ii})
         hold on
     end
 end
+
 end
 
