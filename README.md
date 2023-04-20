@@ -26,6 +26,10 @@ This gets you something like this:
 
 That's pretty much it. 
 
+*Update, 20 Apr 2023*: The package now contains two functions, `Tester.m` and `QuadTest.m`.
+If you load all the palettes or generate a new one, you can use `Tester(palette)` to generate a graph showing which variables in the palette correspond to which colors (like the example above).
+You can also use `QuadTest(p1,p2,p3,p4)` to compare four different palettes simultaneously.
+
 ## Where did the palettes come from?
 
 ### Battles - *Juice B Crypts*
