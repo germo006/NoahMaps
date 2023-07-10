@@ -133,13 +133,13 @@ You can also use `QuadTest(p1,p2,p3,p4)` to compare four different palettes simu
 
 **Variable Name `sg8`**
 
-<img src="Covers/dwellings.jpg" width="300">
+<img src="Covers/SG8.jpg" width="300">
 
 ### Dwellings - *Little Garden*
 
 **Variable Name `dwellings`**
 
-<img src="Covers/SG8.jpg" width="300">
+<img src="Covers/dwellings.jpg" width="300">
 
 ## A note for the Power Palette people out there:
 
