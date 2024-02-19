@@ -141,6 +141,18 @@ You can also use `QuadTest(p1,p2,p3,p4)` to compare four different palettes simu
 
 <img src="Covers/dwellings.jpg" width="300">
 
+### Kiltro - *Underbelly*
+
+**Variable Name `underbelly`**
+
+<img src="Covers/underbelly.jpg" width="300">
+
+### Closure in Moscow - *Soft Hell*
+
+**Variable Name `soft`**
+
+<img src="Covers/soft.jpg" width="300">
+
 ## A note for the Power Palette people out there:
 
 You'll note that there is also a function file called `Palettizer.m` packaged with the other files. This is a short function I wrote to help you do this same thing! To use it...
