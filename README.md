@@ -153,6 +153,14 @@ You can also use `QuadTest(p1,p2,p3,p4)` to compare four different palettes simu
 
 <img src="Covers/soft.jpg" width="300">
 
+### Makari - *Wave Machine*
+This is a ten-color palette, split across two gradients:
+
+**Variable Name `wave1`: orange to mauve**
+**Variable Name `wave2`: lilac to dark blue**
+
+<img src="Covers/makari.png" width="300">
+
 ## A note for the Power Palette people out there:
 
 You'll note that there is also a function file called `Palettizer.m` packaged with the other files. This is a short function I wrote to help you do this same thing! To use it...
@@ -165,6 +173,6 @@ test = [R1 R2 R3 R4 R5; G1 G2 G3 G4 G5; B1 B2 B3 B4 B5]
 ```
 4. Run Palettizer.
 ```
-yourPalette = Palettizer(test)
+yourPalette = Palettizer(test,1)
 ```
 5. You should see a plot that demonstrates the colors you put in, and the `yourPalette` variable can be used as in the instructions earlier.
