@@ -161,15 +161,23 @@ This is a ten-color palette, split across two gradients:
 
 <img src="Covers/makari.png" width="300">
 
+### Friday Pilots Club - *Nowhere*
+
+**Variable Name `FPC`**
+
+<img src="Covers/FPC.png" width="300">
+
 ## A note for the Power Palette people out there:
 
 You'll note that there is also a function file called `Palettizer.m` packaged with the other files. This is a short function I wrote to help you do this same thing! To use it...
 
 1. Download an image you'd like to get colors from.
 2. Go to [this site](https://color.adobe.com/create/image) and upload the image. Play around with the color picker a bit until a set tickles your fancy, and mouse over to the "Color Wheel" tab. If you scroll down you should see a display that shows the R, G, B, and luminance values of the five colors. 
-3. Make those into a matrix in MATLAB like so:
+3. Make those into a matrix in MATLAB like so (can also use Chad Greene's `hex2rgb` function found [here](https://www.mathworks.com/matlabcentral/fileexchange/46289-rgb2hex-and-hex2rgb):
 ```
-test = [R1 R2 R3 R4 R5; G1 G2 G3 G4 G5; B1 B2 B3 B4 B5]
+test = [R1 R2 R3 R4 R5; G1 G2 G3 G4 G5; B1 B2 B3 B4 B5];
+% or with the conversion function
+test = hex2rgb([#RRGGBB;#RRGGBB;#RRGGBB,#RRGGBB;#RRGGBB;#RRGGBB])';
 ```
 4. Run Palettizer.
 ```
